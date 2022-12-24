@@ -8,31 +8,11 @@ body {
   width:calc(100% + 15px);
   height: 100%;
 }
-text{
-  width:200px; height:300px;overflow:auto;
-}
-.landIn {
-  display: flex;
-  flex-wrap: wrap;
-  line-height: 1.8;
+a{
+  text-decoration: none;
   color: white;
-  font-family: Lora, serif;
-  white-space: pre;
-}
-.landIn span {
-  animation: landIn 0.8s ease-out both;
-}
-
-@keyframes landIn {
-  from {
-    opacity: 0;
-    transform: translateY(-20%);
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}.snow {
+.snow {
   position: absolute;
   width: 10px;
   height: 10px;
