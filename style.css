@@ -4,7 +4,6 @@ body {
   background-attachment:fixed;
   overflow: hidden;
   display: flex;
-  overflow:hidden;
   width:calc(100% + 15px);
   height: 100%;
 }
@@ -12,6 +11,12 @@ a{
   text-decoration: none;
   color: white;
   }
+h2{
+  color: white;
+}
+p{
+  color:white;
+}
 .snow {
   position: absolute;
   width: 10px;
