@@ -161,8 +161,9 @@
 
 			window.onresize = function() {
 				var canvasSnow = document.getElementById('canvas_snow');
+                canvasSnow.height = window.innerHeight;
 				canvasSnow.width = window.innerWidth;
-				canvasSnow.height = window.innerHeight;
+				
 			}
 
 			img.onload = function() {
@@ -179,13 +180,7 @@
 					startSakura();
 				}
 			}
-		
-		
-
-
-
     </script>
-    
     <style type="text/css">
         #box {
             position: absolute;
