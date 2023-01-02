@@ -1,0 +1,31 @@
+body {
+    background: url("wallhaven-j3m8y5.png") no-repeat;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    overflow: hidden;
+    display: flex;
+    width:calc(100% + 15px);
+    height: 100%;
+}
+*{
+  font-family: 'Microsoft JhengHei';
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+  }
+.box {
+            position: absolute;
+            background-color: rgb(50, 50, 50);
+            opacity: 0.8;
+            border-radius: 15px;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            line-height: 20px;
+            padding: 10px;
+          }
+          .box::-webkit-scrollbar {
+              display: none;
+          }
