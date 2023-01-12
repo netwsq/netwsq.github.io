@@ -1,54 +1,58 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <title>第一个C++程序</title>
     <link rel="stylesheet" href="./blog.css">
 </head>
+
 <body>
     <div class="box" style="top:10%;left:5%;width:90%;height:80%;">
-    <h1>如何用C++实现Hello World
-    </h1>
-    <p>在C++中，一个程序需要一个头文件和主程序，头文件声明了这个程序中需要使用哪些函数，其中最为基本的iostream包括了输入和输出等功能。#include这个函数会将它身后的头文件包括在程序中
-    <br>
-    主程序由一个函数开始，命名为main，我们将会把执行的命令全都写到大括号中，格式如下：
-    <br>
-    <br>
-    int main(){}
-    <br>
-    <br>
-    现在我们来实现让程序打印Hello World
-    <br>
-    首先，我们需要使用输出的函数，所以我们需要把用来输出的函数加进来，如下：
-    <br>
-    <br>
-    #include&lt;iostream&gt;
-    <br>
-    <br>
-    但这样还不够，我们需要告诉程序，这是一个C++项目，要不然我们用不了C++的函数，只需要添加如下代码就好了：
-    <br>
-    <br>
-    using namespace std;
-    <br>
-    <br>
-    接下来，我们要打印啦，首先要定义一个主函数用来运行我们的程序：
-    <br>
-    <br>
-    int main(){}
-    <br>
-    <br>
-    C++中，打印的函数名为cout,我们需要在大括号中写下：
-    <br>
-    <br>
-    int main(){<br>cout&lt;&lt;"Hello World";<br>}<br><br>
-    在cout这个函数中，&lt;&lt;你可以把它理解为向控制台提交数据的标志。将Hello World包裹住的双引号你可以理解成为一个容器，没有这个容器，程序就不知道你这个Hello World是什么，加了这个容器，相当于告诉了程序要打印这个容器里的内容。
-    <br>
-    现在，这个程序已经完成大部分了，但是，由于在C++中，每个int类型的函数都需要一个返回值(以后会细讲函数，这里只需要知道是固定格式就好)，所以我们需要在后面返回一个值，通常程序员的习惯为0，所以我们需要在后面添加一段return 0;,下面附上完整代码：
-    <br><br>
-    #include&lt;iostream&gt;
-    <br>
-    using namespace std;
-    <br>
-    int main(){<br>cout&lt;&lt;"Hello World";<br>return 0;<br>}
-    </p>
+        <h1>如何用C++实现Hello World
+        </h1>
+        <p>在C++中，一个程序需要一个头文件和主程序，头文件声明了这个程序中需要使用哪些函数，其中最为基本的iostream包括了输入和输出等功能。#include这个函数会将它身后的头文件包括在程序中
+            <br>
+            主程序由一个函数开始，命名为main，我们将会把执行的命令全都写到大括号中，格式如下:
+            <br>
+            <br>
+            int main(){}
+            <br>
+            <br>
+            现在我们来实现让程序打印Hello World
+            <br>
+            首先，我们需要使用输出的函数，所以我们需要把用来输出的函数加进来，如下：
+            <br>
+            <br>
+            #include&lt;iostream&gt;
+            <br>
+            <br>
+            但这样还不够，我们需要告诉程序，这是一个C++项目，要不然我们用不了C++的函数，只需要添加如下代码就好了：
+            <br>
+            <br>
+            using namespace std;
+            <br>
+            <br>
+            接下来，我们要打印啦，首先要定义一个主函数用来运行我们的程序：
+            <br>
+            <br>
+            int main(){}
+            <br>
+            <br>
+            C++中，打印的函数名为cout,我们需要在大括号中写下：
+            <br>
+            <br>
+            int main(){<br>cout&lt;&lt;"Hello World";<br>}<br><br>
+            在cout这个函数中，&lt;&lt;你可以把它理解为向控制台提交数据的标志。将Hello World包裹住的双引号你可以理解成为一个容器，没有这个容器，程序就不知道你这个Hello
+            World是什么，加了这个容器，相当于告诉了程序要打印这个容器里的内容。
+            <br>
+            现在，这个程序已经完成大部分了，但是，由于在C++中，每个int类型的函数都需要一个返回值(以后会细讲函数，这里只需要知道是固定格式就好)，所以我们需要在后面返回一个值，通常程序员的习惯为0，所以我们需要在后面添加一段return
+            0;,下面附上完整代码：
+            <br><br>
+            #include&lt;iostream&gt;
+            <br>
+            using namespace std;
+            <br>
+            int main(){<br>cout&lt;&lt;"Hello World";<br>return 0;<br>}
+        </p>
     </div>
 </body>
