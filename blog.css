@@ -1,41 +1,51 @@
 body {
-  background: url("wallhaven-kx79w6.jpg") no-repeat;
+  background: url("wallpic.jpg") no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow: hidden;
   display: flex;
-  width: 100%;
-  height: 100%;
   margin: 0px;
 }
 * {
   font-family: "Microsoft JhengHei";
-  color: white;
+  color: black;
 }
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .box {
   position: absolute;
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(250, 250, 250);
   opacity: 0.8;
-  border-radius: 0px;
+  border-radius: 15px;
   overflow-x: hidden;
   overflow-y: scroll;
   line-height: 20px;
   padding: 10px;
+  backdrop-filter: blur(50px);
 }
 .box::-webkit-scrollbar {
   display: none;
 }
-#topbox {
-  margin: 0px;
-  height: 50px;
-  width: 100%;
-  background-color: rgb(50, 50, 50);
+.btn {
+  text-decoration: none;
   opacity: 0.8;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border: none;
+  padding: 12px 40px;
+  margin: 10px;
+  font-size: 16px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 10px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+}
+.btn:hover{
+  background-color: rgb(230,230,230);
+}
+.btn:active {
+  transform: scale(0.7);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
