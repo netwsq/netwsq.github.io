@@ -49,3 +49,6 @@ a {
   transform: scale(0.7);
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
+.download:hover{
+  background-color: rgb(230,230,230);
+}
