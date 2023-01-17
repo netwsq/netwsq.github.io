@@ -15,6 +15,7 @@ a {
   color: black;
 }
 .box {
+  transform: translateZ(0);
   background-color: rgba(255, 255, 255, 0.3);
   position: absolute;
   border-radius: 15px;
@@ -29,6 +30,7 @@ a {
   display: none;
 }
 .btn{
+  transform: translateZ(0);
   background-color: rgba(250, 250, 250, 0.3);
   border-radius: 10px;
  -webkit-backdrop-filter: blur(10px);
