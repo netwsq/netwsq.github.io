@@ -39,8 +39,8 @@
         <a href="download_adobe.html"><button class="btn">Adobe</button></a>
         <button class="btn" onclick="alert('功能未开发')">Tools</button>
     </div>
-    <div style="top:15%;right:5px;position: absolute;opacity: 0.8;">
-        <button class="btn" onclick="alert('功能未开发')">意见反馈</button>
+    <div style="top:15%;right:5px;position: absolute;">
+        <button class="btn" onclick="document.getElementById('oImg').style.display = 'block';">意见反馈</button>
     </div>
     <div style="bottom:0;right:5px;position: absolute;">
         <button class="btn" style="opacity: 0.5;" onclick="alert('功能未开发')">捐赠</button>
@@ -48,6 +48,10 @@
     <div style="left: 50%;bottom :5%;position: absolute;transform: translate(-50%,-50%);text-align: center;">
         <p style="color: white;opacity: 0.8;">| by <a href="https://github.com/netwsq"
                 style="color: white;">netwsq</a>&<a href="https://github.com/E2X3" style="color: white;">清心</a> |</p>
+    </div>
+    <div style="width: 100000px;height: 100000px;backdrop-filter: blur(10px);display: none;" id="oImg" align="center">
+        <img src="qrcode.jpg"
+            style="width: 200px;position: absolute;height: 200px;transform: translate(-50%,-50%);top: 300px;">
     </div>
 </body>
 
