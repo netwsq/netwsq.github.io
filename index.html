@@ -49,10 +49,12 @@
         <p style="color: white;opacity: 0.8;">| by <a href="https://github.com/netwsq"
                 style="color: white;">netwsq</a>&<a href="https://github.com/E2X3" style="color: white;">清心</a> |</p>
     </div>
-    <div style="width: 100%;height: 100%;backdrop-filter: blur(10px);display: none;position: absolute;" id="oImg"
-        align="center">
+    <div style="width: 100%;height: 100%;backdrop-filter: blur(10px);display: none;position: absolute;" id="oImg">
         <img src="qrcode.jpg"
-            style="width: 200px;position: absolute;height: 200px;transform: translate(-50%,-50%);top:45%">
+            style="width: 200px;position: absolute;height: 200px;left:calc(50% - 100px);top:calc(50% - 100px)">
+        <a><button onclick="document.getElementById('oImg').style.display = 'none';"
+                style="border:none;background-color: rgba(0, 0, 0, 0);"><img src="icon/close.jpg"
+                    style="height: 32px;width: 32px;cursor: pointer;"></button></a>
     </div>
 </body>
 
