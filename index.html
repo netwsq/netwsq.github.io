@@ -13,57 +13,638 @@
 </style>
 
 <body>
-    <div class="box" style="width: 150px;height: 100%;border-radius: 0px;background-color: rgba(0, 0, 0, 0);">
-        <div style="width: 110px;height: 20%;padding: 10px;">
-            <p>Terraria ip
-                9.tcp.cpolar.top<br>10842<br>停止
+    <video autoplay loop muted src="Tree Genshin Impact.mp4" disablePictureInPicture></video>
+    <div id="index">
+        <div class="box" style="width: 150px;height: 100%;border-radius: 0px;background-color: rgba(0, 0, 0, 0);">
+            <div style="width: 110px;height: 20%;padding: 10px;">
+                <p style="color: white;">Terraria ip
+                    9.tcp.cpolar.top<br>10842<br>停止
+                </p>
+            </div>
+            <div class="box" style="top:25%;height: 40%;background-color: rgba(0, 0, 0, 0);padding: 10px;">
+                <h2 style="color: white;">网站介绍</h2>
+                <p style="color: white;">这是一个资源站,绝大多数盗版资源来源于rutracker,附上链接:rutracker.org</p>
+                <h2 style="color: white;">使用说明:</h2>
+                <p style="color: white;">
+                    为了使种子下载速度更加快速,所以网站中的程序破解方法不一,目前部分下载即用,部分需要安装,还有部分需要将crack文件夹中的文件复制到主文件夹里。具有CODEX文件夹的需要先安装后复制到主文件夹。
+                </p>
+            </div>
+            <div style="bottom: 20px;width: 140px;position: absolute;">
+                <p align="center" style="color: white;"><a href="blog.html">其他(博客)</a></p>
+            </div>
+        </div>
+        <div class="box"
+            style="width: 40%;top: 15%;left: 30%;padding: 0px;box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);border-radius: 30px;">
+            <p align="center">欢迎来到我的网站</p>
+        </div>
+        <div style="left: 50%;top :40%;position: absolute;transform: translate(-50%,-50%);text-align: center;">
+            <button class="btn"
+                onclick="document.getElementById('download_game').style.display = 'block';document.getElementById('index').style.display = 'none';">Game</button>
+            <button class="btn"
+                onclick="document.getElementById('download_adobe').style.display = 'block';document.getElementById('index').style.display = 'none';">Adobe</button>
+            <button class="btn" onclick="alert('功能未开发')">Tools</button>
+        </div>
+        <div style="top:15%;right:5px;position: absolute;">
+            <button class="btn" onclick="document.getElementById('feedback').style.display = 'block';">意见反馈</button>
+        </div>
+        <div style="bottom:0;right:5px;position: absolute;">
+            <button class="btn" style="opacity: 0.5;"
+                onclick="document.getElementById('donation').style.display = 'block';">捐赠</button>
+        </div>
+        <div style="left: 50%;bottom :5%;position: absolute;transform: translate(-50%,-50%);text-align: center;">
+            <p style="color: white;opacity: 0.8;">| by <a href="https://github.com/netwsq"
+                    style="color: white;">netwsq</a>&<a href="https://github.com/E2X3" style="color: white;">清心</a> |
             </p>
         </div>
-        <div class="box" style="top:25%;height: 40%;background-color: rgba(0, 0, 0, 0);padding: 10px;">
-            <h2>网站介绍</h2>
-            <p>这是一个资源站,绝大多数盗版资源来源于rutracker,附上链接:rutracker.org</p>
-            <h2>使用说明:</h2>
-            <p>为了使种子下载速度更加快速,所以网站中的程序破解方法不一,目前部分下载即用,部分需要安装,还有部分需要将crack文件夹中的文件复制到主文件夹里。具有CODEX文件夹的需要先安装后复制到主文件夹。
-            </p>
-        </div>
-        <div style="bottom: 20px;width: 140px;position: absolute;">
-            <p align="center"><a href="blog.html">其他(博客)</a></p>
-        </div>
-    </div>
-    <div class="box"
-        style="width: 40%;top: 15%;left: 30%;padding: 0px;box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);border-radius: 30px;">
-        <p align="center">欢迎来到我的网站</p>
-    </div>
-    <div style="left: 50%;top :40%;position: absolute;transform: translate(-50%,-50%);text-align: center;">
-        <a href="download_game.html"><button class="btn">Game</button></a>
-        <a href="download_adobe.html"><button class="btn">Adobe</button></a>
-        <button class="btn" onclick="alert('功能未开发')">Tools</button>
-    </div>
-    <div style="top:15%;right:5px;position: absolute;">
-        <button class="btn" onclick="document.getElementById('feedback').style.display = 'block';">意见反馈</button>
-    </div>
-    <div style="bottom:0;right:5px;position: absolute;">
-        <button class="btn" style="opacity: 0.5;"
-            onclick="document.getElementById('donation').style.display = 'block';">捐赠</button>
-    </div>
-    <div style="left: 50%;bottom :5%;position: absolute;transform: translate(-50%,-50%);text-align: center;">
-        <p style="color: white;opacity: 0.8;">| by <a href="https://github.com/netwsq"
-                style="color: white;">netwsq</a>&<a href="https://github.com/E2X3" style="color: white;">清心</a> |</p>
     </div>
     <div style="width: 100%;height: 100%;backdrop-filter: blur(10px);display: none;position: absolute;" id="feedback">
-        <img src="qrcode.jpg"
-            style="width: 200px;position: absolute;height: 200px;left:calc(50% - 100px);top:calc(50% - 100px)">
-        <a><button onclick="document.getElementById('feedback').style.display = 'none';"
-                style="border:none;background-color: rgba(0, 0, 0, 0);"><img src="icon/close.jpg"
-                    style="height: 32px;width: 32px;cursor: pointer;"></button></a>
+        <div class="box" style="width: 200px;position: absolute;left:calc(50% - 100px);top:calc(50% - 100px)">
+            <a><button onclick="document.getElementById('feedback').style.display = 'none';"
+                    style="border:none;background-color: rgba(0, 0, 0, 0);"><img src="icon/close.jpg"
+                        style="height: 32px;width: 32px;cursor: pointer;"></button></a>
+            <img src="qrcode.jpg" style="width: 200px;height: 200px;">
+
+        </div>
     </div>
     <div style="width: 100%;height: 100%;backdrop-filter: blur(10px);display: none;position: absolute;" id="donation">
         <img src="donation.jpg"
             style="width: 200px;position: absolute;height: 200px;left:calc(50% - 100px);top:calc(50% - 100px)">
-        <a><button onclick="document.getElementById('donation').style.display = 'none';"
-                style="border:none;background-color: rgba(0, 0, 0, 0);"><img src="icon/close.jpg"
-                    style="height: 32px;width: 32px;cursor: pointer;"></button></a>
+        <button onclick="document.getElementById('donation').style.display = 'none';"
+            style="border:none;background-color: rgba(0, 0, 0, 0);"><img src="icon/close.jpg"
+                style="height: 32px;width: 32px;cursor: pointer;"></button>
     </div>
+    <div id="download_game" style="display: none;">
+        <style type="text/css">
+            .download {
+                width: 100%;
+                height: 84px;
+                border-bottom: 1px solid rgba(230, 230, 230, 0.3);
+                cursor: pointer;
+            }
+
+            .downloadimg {
+                float: left;
+                padding: 10px;
+                max-width: 64px;
+                max-height: 64px;
+                border-radius: 18px;
+            }
+
+            .downloadp {
+                float: left;
+                margin-left: 10px;
+            }
+
+            .btn {
+                float: right;
+            }
+
+            h2 {
+                margin: 10px;
+            }
+        </style>
+        <button
+            onclick="document.getElementById('download_game').style.display = 'none';document.getElementById('index').style.display = 'block';"
+            style="border:none;background-color: rgba(0,0,0,0);border-radius: 16px;height: 32px;width: 32px;"><img
+                src="icon/close.jpg" style="height: 32px;width: 32px;cursor: pointer;"></button>
+        <div class="box" style="width:80%;top: 50px;bottom: 50px;;left:10%;padding: 0px;" id="download_game">
+            <h2>魂类</h2>
+            <div class="download"
+                onclick="document.getElementById('dark_souls_3').style.display = 'block';document.getElementById('download_game').style.display = 'none';">
+                <div>
+                    <img class="downloadimg" src="game_icon/dark_souls_3.jpg">
+                    <h3 class="downloadp">Dark Souls Ⅲ</h3>
+                    <a
+                        href="torrent/Dark Souls III [P] [RUS + ENG + 10 RUS + ENG] (2016) (1.15 + 2 DLC) [P2P] [rutracker-6185357].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download"
+                onclick="document.getElementById('elden_ring').style.display = 'block';document.getElementById('download_game').style.display = 'none';">
+                <div>
+                    <img class="downloadimg" src="game_icon/elden_ring.jpg">
+                    <h3 class="downloadp">Elden Ring</h3>
+                    <a
+                        href="torrent/Elden Ring - Deluxe Edition [L] [RUS + ENG + 12 ENG] (2022) (1.08) [Steam-Rip] [rutracker-6183826].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download"
+                onclick="document.getElementById('sekiro').style.display = 'block';document.getElementById('download_game').style.display = 'none';">
+                <div>
+                    <img class="downloadimg" src="game_icon/sekiro.jpg">
+                    <h3 class="downloadp">Sekiro: Shadow Die Twice</h3>
+                    <a
+                        href="torrent/Sekiro Shadows Die Twice - Game of the Year Edition [P] [RUS + ENG + 11 ENG + JPN] (2019) (1.06) [P2P] [rutracker-5961241].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <h2>独立单机</h2>
+            <div class="download" onclick="window.location.href='game/astroneer.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/astroneer.jpg">
+                    <h3 class="downloadp">Astroneer</h3>
+                    <a
+                        href="torrent/Astroneer [P] [RUS + ENG + 11] (2019) (1.21.128.0) [Portable] [rutracker-5687738].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/slay_the_sprie.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/slay_the_spire.jpg">
+                    <h3 class="downloadp">Slay the Sprie</h3>
+                    <a
+                        href="torrent/Slay the Spire [P] [RUS + ENG + 20] (2019) (2.3.3 + 1 DLC) [Downfall, 4.2.08, Mod] [rutracker-6201043].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/a_dance_of_fire_and_ice.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/a_dance_of_fire_and_ice.jpg">
+                    <h3 class="downloadp">A Dance of Fire and Ice</h3>
+                    <a
+                        href="torrent/A Dance of Fire and Ice [P] [RUS + ENG + 11] (2019) (2.0.5 + 2 DLC) [Portable] [rutracker-6220942].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/terraria.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/terraria.jpg">
+                    <h3 class="downloadp">Terraria</h3>
+                    <a
+                        href="torrent/Terraria [L] [RUS + ENG + 7] (2011) (1.4.4.9 v4) [GOG] [rutracker-5896702].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/terraria_android.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/terraria.jpg">
+                    <h3 class="downloadp">Terraria(Android)</h3>
+                    <a
+                        href="torrent/[Android] Terraria 1.3.0.7.7 [Квесты, приключения, РПГ, Square HVGA VGA WVGA, Multi] [rutracker-5778833].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/ori_and_the_blind_forest.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/ori_and_the_blind_forest.jpg">
+                    <h3 class="downloadp">Ori and the Blind Forest</h3>
+                    <a
+                        href="torrent/Ori and the Blind Forest Definitive Edition [L] [RUS ENG MULTI9] (2016) [GOG] [rutracker-5216241].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/ori_and_the_will_of_the_wisps.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/ori_and_the_will_of_the_wisps.jpg">
+                    <h3 class="downloadp">Ori and the Will of the Wisps</h3>
+                    <a
+                        href="torrent/Ori and the Will of the Wisps [P] [RUS + ENG + 19] (2020) (20201119) [P2P] [rutracker-5966589].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/hollow_knight.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/hollow_knight.jpg">
+                    <h3 class="downloadp">Hollow Knight</h3>
+                    <a
+                        href="torrent/Hollow Knight [L] [RUS + ENG + 8] (2017) (1.4.3.2 + 2 DLC) [GOG] [rutracker-5382613].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/raft.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/raft.jpg">
+                    <h3 class="downloadp">Raft</h3>
+                    <a href="torrent/Raft [P] [RUS + ENG + 9] (2022) (1.0.8) [Portable] [rutracker-5566084].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/subnautica.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/subnautica.jpg">
+                    <h3 class="downloadp">Subnautica</h3>
+                    <a
+                        href="torrent/Subnautica [P] [RUS + ENG + 19 RUS + ENG] (2018) (65786) [P2P] [rutracker-5898203].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/subnautica_below_zero.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/subnautica_below_zero-1639526255123.jpg">
+                    <h3 class="downloadp">Subnautica: Below Zero</h3>
+                    <a
+                        href="torrent/Subnautica Below Zero [P] [RUS + ENG + 14 ENG] (2021) (1.11.45391) [Scene] [rutracker-6054362].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/dead_cells.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/dead_cells.jpg">
+                    <h3 class="downloadp">Dead Cells</h3>
+                    <a
+                        href="torrent/Dead Cells [L] [RUS + ENG + 10] (2018) (1.22.2 + 6 DLC) [GOG] [rutracker-5480829].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <h2>大型单机</h2>
+            <div class="download" onclick="window.location.href='game/cyberpunk_2077.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/cyberpunk_2077.jpg">
+                    <h3 class="downloadp">Cyberpunk 2077</h3>
+                    <a
+                        href="torrent/Cyberpunk.2077.L.RUS.+.ENG.+.16.RUS.+.ENG.2020.1.61.GOG.Galaxy-Rip.rutracker-5981970.torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/death_stranding.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/death_stranding.jpg">
+                    <h3 class="downloadp">Death Stranding</h3>
+                    <a
+                        href="torrent/Death.Stranding.L.RUS.+.ENG.+.18.RUS.+.ENG.+.10.2020.1.06.Steam-Rip.rutracker-5955178.torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/detroit_become_human.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/detroit_become_human.jpg">
+                    <h3 class="downloadp">Detroit: Become Human</h3>
+                    <a
+                        href="torrent/Detroit.Become.Human.P.RUS.+.ENG.+.21.RUS.+.ENG.+.10.2019.2020.1.0.Scene.rutracker-5909350.torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/devil_may_cry_v.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/devil_may_cry_5.jpg">
+                    <h3 class="downloadp">Devil May Cry V</h3>
+                    <a href=""><button class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/dying_light_2_stay_human.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/dying_light2.jpg">
+                    <h3 class="downloadp">Dying Light 2: Stay Human</h3>
+                    <a href=""><button class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/forza_horizon_4.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/forza_horizon_4.jpg">
+                    <h3 class="downloadp">Forza Horizon 4</h3>
+                    <a
+                        href="torrent/Forza.Horizon.4.Ultimate.Edition.L.RUS.+.ENG.+.14.ENG.+.4.2018.2021.1.476.400.0.+.61.DLC.Steam-Rip.rutracker-6023012 (1).torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/forza_horizon_5.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/forza_horizon_5.jpg">
+                    <h3 class="downloadp">Forza Horizon 5</h3>
+                    <a
+                        href="torrent/Forza.Horizon.5.Premium.Edition.L.RUS.+.ENG.+.14.ENG.+.4.2021.1.522.259.0.+.44.DLC.Steam-Rip.rutracker-6132554.torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/ghostrunner.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/ghostrunner.jpg">
+                    <h3 class="downloadp">Ghostrunner</h3>
+                    <a
+                        href="torrent/Ghostrunner.P.RUS.+.ENG.+.11.RUS.+.ENG.2020.0.42507.446.+.6.DLC.P2P.rutracker-6041073.torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/grand_theft_auto_v.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/gta5.jpg">
+                    <h3 class="downloadp">Grand Theft Auto V</h3>
+                    <a
+                        href="torrent/Grand.Theft.Auto.V.5.L.RUS.+.ENG.+.9.ENG.2015.1.0.2699.1.61.EGS-Rip.rutracker-5317562 (1).torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href='game/nier_autometa.html'">
+                <div>
+                    <img class="downloadimg" src="game_icon/nier_automata.jpg">
+                    <h3 class="downloadp">Nier: Automata</h3>
+                    <a
+                        href="torrent/NieR.Automata.-.Day.One.Edition.L.RUS.ENG.MULTI6.2017.Build.1787043.+.7.DLC.Steam-Rip.rutracker-5399918.torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href=''">
+                <div>
+                    <img class="downloadimg" src="game_icon/red_dead_redemption_2.jpg">
+                    <h3 class="downloadp">Red Dead Redemption 2</h3>
+                    <a
+                        href="torrent/Red.Dead.Redemption.2.L.RUS.+.ENG.+.11.ENG.2019.1.0.1436.28.RGL-Rip.rutracker-5958348.torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href=''">
+                <div>
+                    <img class="downloadimg" src="game_icon/elder_scrolls_skyrim.jpg">
+                    <h3 class="downloadp">The Elder Scrolls V: Skyrim</h3>
+                    <a
+                        href="torrent/The.Elder.Scrolls.V.Skyrim.-.Special.Edition.P.RUS.+.ENG.RUS.+.ENG.2016.1.5.97.0.8.SLMP-SSE.1.7.Mod.rutracker-5454838.torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href=''">
+                <div>
+                    <img class="downloadimg" src="game_icon/witcher_3.jpg">
+                    <h3 class="downloadp">The Witcher 3: Wild Hunt</h3>
+                    <a
+                        href="torrent/The Witcher 3 Wild Hunt - Game of the Year Edition Ведьмак 3 Дикая Охота [P] [RUS + ENG + 15 RUS + ENG + 1] (2015) (1.32 + 1 [rutracker-6191452].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href=''">
+                <div>
+                    <img class="downloadimg" src="game_icon/marves_spider_man_miles_morales.jpg">
+                    <h3 class="downloadp">Spider-Man: Miles Morales</h3>
+                    <a
+                        href="torrent/Marvel's Spider-Man Miles Morales [P] [RUS + ENG + 20 RUS + ENG] (2022) (1.1209.0.0 + 1 DLC) [Portable] [rutracker-6285439].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href=''">
+                <div>
+                    <img class="downloadimg" src="game_icon/god_of_war.jpg">
+                    <h3 class="downloadp">God of War 4</h3>
+                    <a
+                        href="torrent/God of War 4 [P] [RUS + ENG + 16 RUS + ENG + 9] (2022) (1.0.0 1.0.436.8016) [Scene] [rutracker-6164494].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+            <div class="download" onclick="window.location.href=''">
+                <div>
+                    <img class="downloadimg" src="game_icon/call_of_duty_modern_warfare_2.jpg">
+                    <h3 class="downloadp">Call of Duty: Modern Warfare 2</h3>
+                    <a
+                        href="torrent/Call of Duty Modern Warfare II [20 окт. 2022 - ранний доступ к кампании] [L] [RUS + ENG ENG] (2022) [Portable] [rutracker-6302735].torrent"><button
+                            class="btn">Download</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="dark_souls_3" style="display: none;">
+        <button
+            onclick="document.getElementById('dark_souls_3').style.display = 'none';document.getElementById('download_game').style.display = 'block';"
+            style="border:none;background-color: rgba(0,0,0,0);border-radius: 16px;height: 32px;width: 32px;"><img
+                src="icon/close.jpg" style="height: 32px;width: 32px;cursor: pointer;"></button>
+        <div class="box" style="width:80%;top: 50px;bottom: 50px;;left:10%;padding: 0px;">
+            <img style="margin: 20px;float: left;max-width: 128px;max-height: 128px;border-radius: 18px;max-width: 128px;max-height: 128px;border-radius: 18px;"
+                src="game_icon/dark_souls_3.jpg" class="">
+            <h1 style="float: left;margin-top: 25px;">Dark Souls Ⅲ</h1>
+            <a
+                href="./torrent/Dark Souls III [P] [RUS + ENG + 10 RUS + ENG] (2016) (1.15 + 2 DLC) [P2P] [rutracker-6185357].torrent"><button
+                    class="btn" style="float: right;">Download</button></a>
+            <a href="./torrent/qbittorrent_4.5.0_x64_setup.exe"><button class="btn"
+                    style="float: right;">Qbittorrent下载</button></a>
+            <div style="margin: 168px;">
+                <p>《黑暗之魂3》是由From
+                    Software公司开发的一款动作角色扮演类游戏，是《黑暗之魂》系列的游戏之一，先于2016年3月24日在日本地区全平台发行，随后于2016年4月12日在全球范围内发行。<br><br>
+                    后续DLC艾雷德尔之烬和环印城分别于2016年10月25日和2017年3月28日全平台同步发布。<br><br>
+                    游戏的主要舞台为洛斯里克王国。在那里，玩家肩负着阻止末世来临的使命，而末世则是由于火之纪元和那些前代黑暗印记持有者之间的冲突所引发的。为了应对这一事态，玩家需要去面对薪王——那些曾经传过火的英雄。无论结局如何，世界始终会在光与暗之间轮转。
+                </p>
+                <h3>安装方法</h3>
+                <p>点击setup安装,装后即用</p>
+            </div>
+        </div>
+    </div>
+    <div id="elden_ring" style="display: none;">
+        <button
+            onclick="document.getElementById('elden_ring').style.display = 'none';document.getElementById('download_game').style.display = 'block';"
+            style="border:none;background-color: rgba(0,0,0,0);border-radius: 16px;height: 32px;width: 32px;"><img
+                src="icon/close.jpg" style="height: 32px;width: 32px;cursor: pointer;"></button>
+        <div class="box" style="width:80%;top: 50px;bottom: 50px;;left:10%;padding: 0px;">
+            <img style="margin: 20px;float: left;max-width: 128px;max-height: 128px;border-radius: 18px;max-width: 128px;max-height: 128px;border-radius: 18px;"
+                src="./game_icon/elden_ring.jpg">
+            <h1 style="float: left;margin-top: 25px;">Elden Ring</h1>
+            <a
+                href="./torrent/Elden Ring - Deluxe Edition [L] [RUS + ENG + 12 ENG] (2022) (1.08) [Steam-Rip] [rutracker-6183826].torrent"><button
+                    class="btn" style="float: right;">Download</button></a>
+            <a href="./torrent/qbittorrent_4.5.0_x64_setup.exe"><button class="btn"
+                    style="float: right;">Qbittorrent下载</button></a>
+            <div style="margin: 168px;">
+                <p>《艾尔登法环》是From Software开发，万代南梦宫发行的黑暗幻想风开放世界角色扮演动作游戏。于2022年2月25日于Steam、PlayStation 4、PlayStation 5、Xbox
+                    One、Xbox Series X/Xbox Series S上发售。<br><br>
+                    该游戏让玩家走进辽阔的场景与地下迷宫探索未知，挑战困难重重的险境，同时体验登场角色之间的利害关系谱成的群像剧。<br><br>
+                    2022年11月，游戏获得第40届金摇杆奖。2022年12月8日，游戏获得IGN年度游戏中包括“年度最佳游戏”的四项奖项。2022年12月9日，游戏获得2022游戏大奖中包括“最佳年度游戏”的四项奖项。2022年12月29日，游戏获得STEAM大奖中包括“最佳年度游戏”的两项奖项。
+                </p>
+                <h3>安装方法</h3>
+                <p>将Crack文件夹的内容复制到游戏文件夹，确认替换文件<br><br>从 ELDEN RING/Game
+                    中的 eldenring.exe 启动游戏。</p>
+            </div>
+
+        </div>
+    </div>
+    <div id="sekiro" style="display: none;">
+        <button
+            onclick="document.getElementById('sekiro').style.display = 'none';document.getElementById('download_game').style.display = 'block';"
+            style="border:none;background-color: rgba(0,0,0,0);border-radius: 16px;height: 32px;width: 32px;"><img
+                src="icon/close.jpg" style="height: 32px;width: 32px;cursor: pointer;"></button>
+        <div class="box" style="width:80%;top: 50px;bottom: 50px;;left:10%;padding: 0px;">
+            <img style="margin: 20px;float: left;max-width: 128px;max-height: 128px;border-radius: 18px;"
+                src="game_icon/sekiro.jpg">
+            <h1 style="float: left;margin-top: 25px;">Sekiro: Shadow Die Twice
+            </h1>
+            <a
+                href="torrent/Sekiro Shadows Die Twice - Game of the Year Edition [P] [RUS + ENG + 11 ENG + JPN] (2019) (1.06) [P2P] [rutracker-5961241].torrent"><button
+                    class="btn" style="float: right;">Download</button></a>
+            <a href="torrent/qbittorrent_4.5.0_x64_setup.exe"><button class="btn"
+                    style="float: right;">Qbittorrent下载</button></a>
+            <div style="margin: 168px;">
+                <p>《只狼: 影逝二度》(Sekiro: Shadows Die Twice)是一款由From
+                    Software制作的第三人称视角的动作冒险RPG类游戏，玩家将操控一位忍者，拯救他的主人——拥有日本贵族血统的大能的御子，并向他的天敌复仇。该游戏已于2019年3月22日全球同步上市，并支持中文版。<br><br>
+                    游戏剧情将探索生死冲突不断的16世纪后期，残酷的日本战国时代。在黑暗、扭曲的世界，玩家与威胁生命的敌人对峙，活用义手装备各种致命武器，大显忍者身手，在血腥对抗中潜行、上下穿梭，与敌人正面激烈交锋。<br><br>
+                    2019年12月13日，《只狼: 影逝二度》获得TGA 2019最佳年度游戏。
+                </p>
+                <h3>安装方法</h3>
+                <p>点击setup安装,装后即用</p>
+            </div>
+        </div>
+        <div id="download_adobe" style="display: none;">
+            <style type="text/css">
+                .download {
+                    width: 100%;
+                    height: 84px;
+                    border-bottom: 1px solid rgba(230, 230, 230, 0.3);
+                    cursor: pointer;
+                }
+
+                .downloadimg {
+                    float: left;
+                    padding: 10px;
+                    max-width: 64px;
+                    max-height: 64px;
+                    border-radius: 18px;
+                }
+
+                .downloadp {
+                    float: left;
+                    margin-left: 10px;
+                }
+
+                .btn {
+                    float: right;
+                }
+
+                h2 {
+                    margin: 10px;
+                }
+            </style>
+            <div class="box" style="width:80%;top: 50px;bottom: 50px;;left:10%;padding: 0px;">
+                <div class="download" onclick="window.location.href='adobe/adobe_acrobat.html'">
+                    <div>
+                        <img class="downloadimg" src="adobe_icon/acrobat-reader.png">
+                        <h3 class="downloadp">Adobe Acrobat</h3>
+                        <a
+                            href="torrent/Adobe.Acrobat.Pro.DC.2022.v22.001.20085.x64.by.m0nkrus.2022.MULTILANG.+RUS.rutracker-6189051.torrent"><button
+                                class="btn">Download</button></a>
+                    </div>
+                </div>
+                <div class="download" onclick="window.location.href='adobe/adobe_after_effects.html'">
+                    <div>
+                        <img class="downloadimg" src="adobe_icon/after-effects.png">
+                        <h3 class="downloadp">Adobe After Effects</h3>
+                        <a
+                            href="torrent/Adobe After Effects 2022 v22.5.0.53 x64 [21.06.2022, MULTILANG +RUS] [rutracker-6228413].torrent"><button
+                                class="btn">Download</button></a>
+                    </div>
+                </div>
+                <div class="download" onclick="window.location.href='adobe/adobe_animate.html'">
+                    <div>
+                        <img class="downloadimg" src="adobe_icon/animate.png">
+                        <h3 class="downloadp">Adobe Animate</h3>
+                        <a
+                            href="torrent/Adobe Animate 2022 v22.0.4.185 (x64) [2022, MULTILANG +RUS] [rutracker-6180561].torrent"><button
+                                class="btn">Download</button></a>
+                    </div>
+                </div>
+                <div class="download" onclick="window.location.href='adobe/adobe_audition.html'">
+                    <div>
+                        <img class="downloadimg" src="adobe_icon/audition.png">
+                        <h3 class="downloadp">Adobe Audition</h3>
+                        <a
+                            href="torrent/Adobe Audition.2022.v22.3.0.60.x64.2022.MULTILANG.-RUS.rutracker-6202948.torrent"><button
+                                class="btn">Download</button></a>
+                    </div>
+                </div>
+                <div class="download" onclick="window.location.href='adobe/adobe_bridge.html'">
+                    <div>
+                        <img class="downloadimg" src="adobe_icon/bridge.png">
+                        <h3 class="downloadp">Adobe Bridge</h3>
+                        <a
+                            href="torrent/Adobe Bridge 2022 v12.0.1.246 (x64) [2022, MULTILANG +RUS] [rutracker-6164109].torrent"><button
+                                class="btn">Download</button></a>
+                    </div>
+                </div>
+                <div class="download" onclick="window.location.href='adobe/adobe_character_animator.html'">
+                    <div>
+                        <img class="downloadimg" src="adobe_icon/character-animator.png">
+                        <h3 class="downloadp">Adobe Character Animator</h3>
+                        <a
+                            href="torrent/Adobe Character Animator 2022 v22.0 (x64) by m0nkrus [2021, Multi +Ru] [rutracker-6131017].torrent"><button
+                                class="btn">Download</button></a>
+                    </div>
+                </div>
+                <div class="download" onclick="window.location.href='adobe/adobe_dreamweaver.html'">
+                    <div>
+                        <img class="downloadimg" src="adobe_icon/dreamweaver.png">
+                        <h3 class="downloadp">Adobe Dreamweaver</h3>
+                        <a
+                            href="torrent/Adobe Dreamweaver 2021 RePack by KpoJIuK [Multi Ru] 21 15392 x64 [2020, MULTILANG +RUS] [rutracker-5960492].torrent"><button
+                                class="btn">Download</button></a>
+                    </div>
+                </div>
+                <div class="download" onclick="window.location.href='adobe/adobe_illustrator.html'">
+                    <div>
+                        <img class="downloadimg" src="adobe_icon/illustrator.png">
+                        <h3 class="downloadp">Adobe Illustrator</h3>
+                        <a
+                            href="torrent/Adobe Illustrator 2022 v26.1.0.185 (x64) [2022, MULTILANG +RUS] [rutracker-6189283].torrent"><button
+                                class="btn">Download</button></a>
+                    </div>
+                </div>
+                <div class="download" onclick="window.location.href='adobe/adobe_incopy.html'">
+                    <div>
+                        <img class="downloadimg" src="adobe_icon/incopy.png">
+                        <h3 class="downloadp">Adobe InCopy</h3>
+                        <a
+                            href="torrent/Adobe InCopy 2022 v17.0.1.105 (x64) by m0nkrus [2021, Multi +Ru] [rutracker-6139168].torrent"><button
+                                class="btn">Download</button></a>
+                    </div>
+                </div>
+                <div class="download" onclick="window.location.href='adobe/adobe_indesign.html'">
+                    <div>
+                        <img class="downloadimg" src="adobe_icon/indesign.png">
+                        <h3 class="downloadp">Adobe InDesign</h3>
+                        <a
+                            href="torrent/Adobe InDesign 2022 v17.0.1.105 (x64) by m0nkrus [2021, Multi +Ru] [rutracker-6138179].torrent"><button
+                                class="btn">Download</button></a>
+                    </div>
+                </div>
+                <div class="download" onclick="window.location.href='adobe/adobe_lightroom_classic.html'">
+                    <div>
+                        <img class="downloadimg" src="adobe_icon/lightroom-classic.png">
+                        <h3 class="downloadp">Adobe Lightroom Classic</h3>
+                        <a
+                            href="torrent/Adobe Lightroom Classic 11.2.0.6 (x64) [2022, MULTILANG +RUS] [rutracker-6179218].torrent"><button
+                                class="btn">Download</button></a>
+                    </div>
+                </div>
+                <div class="download" onclick="window.location.href='adobe/adobe_media_encoder.html'">
+                    <div>
+                        <img class="downloadimg" src="adobe_icon/media-encoder.png">
+                        <h3 class="downloadp">Adobe Media Encoder</h3>
+                        <a
+                            href="torrent/Adobe Media Encoder 2022 v22.0 (x64) by m0nkrus [2021, Multi +Ru] [rutracker-6129788].torrent"><button
+                                class="btn">Download</button></a>
+                    </div>
+                </div>
+                <div class="download" onclick="window.location.href='adobe/adobe_photoshop.html'">
+                    <div>
+                        <img class="downloadimg" src="adobe_icon/photoshop.png">
+                        <h3 class="downloadp">Adobe Photoshop</h3>
+                        <a
+                            href="torrent/Adobe Photoshop.2022.23.5.0.669.by.m0nkrus.2022.Multi.Ru.rutracker-6248726.torrent"><button
+                                class="btn">Download</button></a>
+                    </div>
+                </div>
+                <div class="download" onclick="window.location.href='adobe/adobe_prelude.html'">
+                    <div>
+                        <img class="downloadimg" src="adobe_icon/prelude.png">
+                        <h3 class="downloadp">Adobe Prelude</h3>
+                        <a
+                            href="torrent/Adobe Prelude 2022 v22.0 (x64) by m0nkrus [2021, Multi +Ru] [rutracker-6129867].torrent"><button
+                                class="btn">Download</button></a>
+                    </div>
+                </div>
+                <div class="download" onclick="window.location.href='adobe/adobe_premiere_pro.html'">
+                    <div>
+                        <div>
+                            <img class="downloadimg" src="adobe_icon/premiere.png">
+                            <h3 class="downloadp">Adobe Premiere Pro</h3>
+                            <a
+                                href="torrent/Adobe.Premiere.Pro.2022.v22.2.0.128.x64.by.m0nkrus.2022.MULTILANG.+RUS.rutracker-6179651.torrent"><button
+                                    class="btn">Download</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="download" onclick="window.location.href='adobe/adobe_xd.html'">
+                    <div>
+                        <img class="downloadimg" src="adobe_icon/xd.png">
+                        <h3 class="downloadp">Adobe XD</h3>
+                        <a href="torrent/Adobe XD 49.0.12 (x64) [2022, MULTILANG +RUS] [rutracker-6189290].torrent"><button
+                                class="btn">Download</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
