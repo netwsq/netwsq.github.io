@@ -1,2 +1,2 @@
 <?php
-echo "DearXuan's API by php!";
+echo " API by php!";
