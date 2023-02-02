@@ -1,2 +1,2 @@
 <?php
-phpinfo();
+echo "DearXuan's API by php!";
