@@ -17,10 +17,16 @@
     </style>
 
     <script type="text/javascript">
-        window.onload = function () {
+        $(document).ready(function () {
+            $('#loading').animate({
+                height: 'toggle'
+            });
             document.getElementById("backvideo").style.display = "block";
             document.getElementById("index").style.display = "block";
-            document.getElementById("loading").style.display = "none";
+        });
+
+        window.onload = function () {
+
         }
         function fetch(id) {
             document.getElementById("index").style.display = "none";
