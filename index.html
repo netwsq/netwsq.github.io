@@ -28,11 +28,19 @@
         function fetch(id) {
             document.getElementById("index").style.display = "none";
             document.getElementById("box").style.display = "block";
-
+            $('#loading').animate({ height: 'toggle' });
+            document.getElementById("div").style.display = "none";
             const script = document.createElement("script");
             script.type = "text/javascript";
             script.src = 'JavaScript/' + id + '/' + id + 'list.js';
             document.getElementsByTagName('head')[0].appendChild(script);
+
+            $('.downloadimg').ready(function () {
+                $('#loading').animate({
+                    height: 'toggle'
+                });
+                $('#div').delay(1000).fadeIn('slow');
+            });
         }
     </script>
 </head>
