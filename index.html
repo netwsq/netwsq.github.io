@@ -17,15 +17,14 @@
     </style>
 
     <script type="text/javascript">
-        $('#backvideo').ready(function () {
+
+        window.onload = function () {
             $('#loading').animate({
                 height: 'toggle'
             });
-            document.getElementById("backvideo").style.display = "block";
-            document.getElementById("index").style.display = "block";
-        });
+            $('#backvideo').delay(1000).fadeIn('slow');
+            $('#index').delay(1000).fadeIn('slow');
 
-        window.onload = function () {
 
         }
         function fetch(id) {
