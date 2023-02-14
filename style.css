@@ -18,6 +18,7 @@ video {
   /*保证视频充满屏幕*/
   object-fit: cover;
   min-height: 800px;
+  z-index: -99;
 }
 
 * {

@@ -75,6 +75,10 @@ let games = [{
     "src": "devil_may_cry_5",
     "format": "torrent"
 }, {
+    "name": "Grand Theft V",
+    "src": "gta5",
+    "format": "torrent"
+}, {
     "name": "Dying Light 2: Stay Human",
     "src": "dying_light_2",
     "format": "torrent"
@@ -116,3 +120,12 @@ let games = [{
     "format": "torrent"
 }
 ]
+for (i = 0; i < games.length; i++) {
+    pic = "game/game_icon/" + games[i].src + ".jpg";
+    if (typeof (games[i].website) == "undefined") {
+        address = "game/game_resource/" + games[i].src + "." + games[i].format;
+    } else {
+        address = games[i].website;
+    }
+    document.getElementById("div").innerHTML += '<div class="download" onclick="contect(&#39' + games[i].src + '&#39)">' + '<div>' + '<img class="downloadimg" src=' + pic + '>' + '<h3 class="downloadp">' + games[i].name + '</h3>' + '<a href="' + address + '">' + '<button class="btn" style="float:right">' + 'Download' + '</button>' + '</div>' + '</div>';
+}

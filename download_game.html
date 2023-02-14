@@ -9,6 +9,12 @@
     <div class="box" id="div" style="width:80%;top: 50px;bottom: 50px;left:10%;padding: 0px;"></div>
     <script src="JavaScript/game/gamelist.js"></script>
     <script type="text/javascript">
+        function contect(url) {
+            const script = document.createElement("script");
+            script.type = "text/javascript";
+            script.src = 'JavaScript/game/game/' + url + '.js';
+            document.getElementsByTagName('head')[0].appendChild(script);
+        }
         window.onload = function () {
             for (i = 0; i < games.length; i++) {
                 pic = "game/game_icon/" + games[i].src + ".jpg";
@@ -17,9 +23,10 @@
                 } else {
                     address = games[i].website;
                 }
-                document.getElementById("div").innerHTML += '<div class="download">' + '<div>' + '<img class="downloadimg" src=' + pic + '>' + '<h3 class="downloadp">' + games[i].name + '</h3>' + '<a href="' + address + '">' + '<button class="btn" >' + 'Download' + '</button>' + '</div>' + '</div>';
+                document.getElementById("div").innerHTML += '<div class="download" onclick="contect(&#39' + games[i].src + '&#39)">' + '<div>' + '<img class="downloadimg" src=' + pic + '>' + '<h3 class="downloadp">' + games[i].name + '</h3>' + '<a href="' + address + '">' + '<button class="btn" >' + 'Download' + '</button>' + '</div>' + '</div>';
             }
         }
+
     </script>
 </head>
 <style type="text/css">
