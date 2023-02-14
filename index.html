@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.png">
     <script src="jquery.min.js"></script>
-    <div class="box" id="div" style="width:80%;top: 50px;bottom: 50px;left:10%;padding: 0px;display: none;"></div>
-    <video autoplay loop muted src="Tree Genshin Impact.mp4" disablePictureInPicture></video>
+    <div class="box" id="box" style="width:80%;top: 50px;bottom: 50px;left:10%;padding: 0px;display: none;">
+        <div id="div"></div>
+    </div>
+    <video loop muted src="Tree Genshin Impact.mp4" id="backvideo" disablePictureInPicture></video>
     <style type="text/css">
         body {
             overflow: hidden;
@@ -18,10 +20,12 @@
         window.onload = function () {
             document.getElementById("loading").style.display = "none";
             document.getElementById("index").style.display = "block";
+            document.getElementById("backvideo").play();
         }
         function fetch(id) {
             document.getElementById("index").style.display = "none";
-            document.getElementById("div").style.display = "block"
+            document.getElementById("loading").style.display = "block";
+            document.getElementById("box").style.display = "block";
             const script = document.createElement("script");
             script.type = "text/javascript";
             script.src = 'JavaScript/' + id + '/' + id + 'list.js';
