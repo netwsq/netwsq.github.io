@@ -17,14 +17,13 @@
     </style>
 
     <script type="text/javascript">
-
-        window.onload = function () {
+        $('#backvideo').ready(function () {
             $('#loading').animate({
                 height: 'toggle'
             });
             $('#backvideo').delay(1000).fadeIn('slow');
             $('#index').delay(1000).fadeIn('slow');
-        }
+        });
         function fetch(id) {
             document.getElementById("index").style.display = "none";
             document.getElementById("box").style.display = "block";
@@ -34,7 +33,6 @@
             script.type = "text/javascript";
             script.src = 'JavaScript/' + id + '/' + id + 'list.js';
             document.getElementsByTagName('head')[0].appendChild(script);
-
             $('.downloadimg').ready(function () {
                 $('#loading').animate({
                     height: 'toggle'
