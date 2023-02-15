@@ -26,9 +26,9 @@
         }
         function fetch(id) {
             document.getElementById("index").style.display = "none";
-            $('#box').animate({ height: 'toggle' });
-            $('#loading').animate({ height: 'toggle' });
             document.getElementById("div").style.display = "none";
+            $('#box').animate({ height: 'toggle' }, 500);
+            $('#loading').delay(500).animate({ height: 'toggle' });
             const script = document.createElement("script");
             script.type = "text/javascript";
             script.src = 'JavaScript/' + id + '/' + id + 'list.js';
