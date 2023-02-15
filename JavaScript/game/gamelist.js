@@ -118,6 +118,10 @@ let games = [{
     "name": "Call of Duty: Modern Warfare 2",
     "src": "call_of_duty_modern_warfare_2",
     "format": "torrent"
+},{
+    "name": "Battlefield 1",
+    "src": "battlefield_1",
+    "format": "torrent"
 }
 ]
 for (i = 0; i < games.length; i++) {
