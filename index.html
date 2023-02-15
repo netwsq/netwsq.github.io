@@ -17,13 +17,13 @@
     </style>
 
     <script type="text/javascript">
-        $('#backvideo').ready(function () {
+        function load() {
             $('#loading').animate({
                 height: 'toggle'
             });
             $('#backvideo').delay(1000).fadeIn('slow');
             $('#index').delay(2000).fadeIn('slow');
-        });
+        }
         function fetch(id) {
             document.getElementById("index").style.display = "none";
             document.getElementById("box").style.display = "block";
@@ -43,7 +43,7 @@
     </script>
 </head>
 
-<body>
+<body onload="load()">
     <div class="svg-frame"
         style="position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 344px;height: 344px;"
         id="loading">
