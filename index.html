@@ -9,8 +9,7 @@
     <div class="box" id="box" style="width:80%;top: 50px;bottom: 50px;left:10%;padding: 0px;display: none;">
         <div id="div"></div>
     </div>
-    <video autoplay loop muted src="Tree Genshin Impact.mp4" id="backvideo" disablePictureInPicture preload="auto"
-        style="display: none;"></video>
+    <img src="wallpic.jpg" id="backpic" style="display: none;" onload="load()">
     <style type="text/css">
         body {
             overflow: hidden;
@@ -22,12 +21,12 @@
             $('#loading').animate({
                 height: 'toggle'
             });
-            $('#backvideo').delay(1000).fadeIn('slow');
+            $('#backpic').delay(1000).fadeIn('slow');
             $('#index').delay(2000).fadeIn('slow');
         }
         function fetch(id) {
             document.getElementById("index").style.display = "none";
-            document.getElementById("box").style.display = "block";
+            $('#box').animate({ height: 'toggle' });
             $('#loading').animate({ height: 'toggle' });
             document.getElementById("div").style.display = "none";
             const script = document.createElement("script");
@@ -44,7 +43,7 @@
     </script>
 </head>
 
-<body onload="load()">
+<body>
     <div class="svg-frame"
         style="position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 344px;height: 344px;"
         id="loading">
