@@ -122,6 +122,10 @@ let games = [{
     "name": "Battlefield 1",
     "src": "battlefield_1",
     "format": "torrent"
+},{
+    "name": "Mortal Kombat 11",
+    "src": "mortal_kombat_11",
+    "format": "torrent"
 }
 ]
 for (i = 0; i < games.length; i++) {
