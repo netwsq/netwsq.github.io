@@ -72,3 +72,9 @@ for (i = 0; i < adobes.length; i++) {
     }
     document.getElementById("div").innerHTML += "<div class='download' onclick='contect()'>" + '<div>' + '<img class="downloadimg" src=' + pic + '>' + '<h3 class="downloadp">' + adobes[i].name + '</h3>' + '<a href="' + address + '">' + '<button class="btn" style="float:right">' + 'Download' + '</button>' + '</div>' + '</div>';
 }
+$('.downloadimg').ready(function () {
+    $('#loading').animate({
+        height: 'toggle'
+    });
+    $('#div').delay(1000).fadeIn('slow');
+});
