@@ -137,3 +137,10 @@ for (i = 0; i < games.length; i++) {
     }
     document.getElementById("div").innerHTML += '<div class="download" onclick="contect(&#39' + games[i].src + '&#39)">' + '<div>' + '<img class="downloadimg" src=' + pic + '>' + '<h3 class="downloadp">' + games[i].name + '</h3>' + '<a href="' + address + '">' + '<button class="btn" style="float:right">' + 'Download' + '</button>' + '</div>' + '</div>';
 }
+
+$('.downloadimg').ready(function () {
+    $('#loading').animate({
+        height: 'toggle'
+    });
+    $('#div').delay(1000).fadeIn('slow');
+});
