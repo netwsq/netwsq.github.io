@@ -63,7 +63,7 @@ adobes = [{
     "src": "xd",
     "format": "torrent"
 }]
-var times=0;
+flag=0;
 for (i = 0; i < adobes.length; i++) {
     pic = "adobe/adobe_icon/" + adobes[i].src + ".png";
     if (typeof (adobes[i].website) == "undefined") {
@@ -71,14 +71,13 @@ for (i = 0; i < adobes.length; i++) {
     } else {
         address = adobes[i].website;
     }
-    document.getElementById("div").innerHTML += "<div class='download' onclick='contect()'>" + '<div>' + '<img class="downloadimg" src=' + pic + '>' + '<h3 class="downloadp">' + adobes[i].name + '</h3>' + '<a href="' + address + '">' + '<button class="btn" style="float:right">' + 'Download' + '</button>' + '</div>' + '</div>';
-    times++;
+    document.getElementById("div").innerHTML += "<div class='download' onclick='contect()'>" + '<div>' + '<img class="downloadimg" onload="showlist()" src=' + pic + '>' + '<h3 class="downloadp">' + adobes[i].name + '</h3>' + '<a href="' + address + '">' + '<button class="btn" style="float:right">' + 'Download' + '</button>' + '</div>' + '</div>';
 }
-if(times==adobes.length){
-$('.downloadimg').load(function () {
-    $('#loading').animate({
-        height: 'toggle'
-    });
-    $('#div').delay(1000).fadeIn('slow');
-});
+function showlist(){
+    flag++;
+    if( flag == adobes.length ){
+        $('#loading').animate({height: 'toggle'});
+        $('#div').delay(1000).fadeIn('slow');
+        console.log(flag);
+    }
 }
