@@ -9,7 +9,7 @@ Router.route('/game', function () {
     script.src = 'JavaScript/game/gamelist.js';
     document.getElementsByTagName('head')[0].appendChild(script);
 });
-Router.route('/', function(){
+Router.route('/index', function(){
     flag=0;
     $('#closebtn').animate({ height: 'toggle' }, 20);
     $('#box').animate({ height: 'toggle' }, 600);
