@@ -5,6 +5,7 @@ Router.route('/game', function () {
     $('#box').fadeIn();
     $('#loading').delay(500).animate({ height: 'toggle' });
     flag=0;
+    $('#div').empty();
     for (i = 0; i < games.length; i++) {
     pic = "game/game_icon/" + games[i].src + ".jpg";
     if (typeof (games[i].website) == "undefined") {
@@ -23,6 +24,7 @@ Router.route('/adobe', function(){
     $('#box').fadeIn();
     $('#loading').delay(500).animate({ height: 'toggle' });
     flag=0;
+    $('#div').empty();
     for (i = 0; i < adobes.length; i++) {
     pic = "adobe/adobe_icon/" + adobes[i].src + ".png";
     if (typeof (adobes[i].website) == "undefined") {
