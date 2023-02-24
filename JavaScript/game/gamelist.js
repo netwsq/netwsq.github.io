@@ -126,6 +126,10 @@ let games = [{
     "name": "Mortal Kombat 11",
     "src": "mortal_kombat_11",
     "format": "torrent"
+},{
+    "name":"It Takes Two",
+    "src": "it_takes_two",
+    "format": "torrent"
 }
 ]
 flag=0;
