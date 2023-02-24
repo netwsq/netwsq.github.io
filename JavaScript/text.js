@@ -39,9 +39,9 @@ Router.route('/index', function(){
     flag=0;
     $('#closebtn').fadeOut();
     $('#box').fadeOut();
-    $('#index').delay(600).fadeIn();
+    $('#index').delay(600).fadeIn("slow");
     if($('#loading').is(":show")){
-        $('#loading').delay(500).animate({ height: 'toggle' });
+        $('#loading').animate({ height: 'toggle' });
     }
 
 });
