@@ -40,4 +40,8 @@ Router.route('/index', function(){
     $('#closebtn').fadeOut();
     $('#box').fadeOut();
     $('#index').delay(600).fadeIn();
+    if($('#loading').is(":show")){
+        $('#loading').delay(500).animate({ height: 'toggle' });
+    }
+
 });
