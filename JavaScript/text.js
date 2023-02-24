@@ -1,6 +1,6 @@
 Router.route('/game', function () {
-    document.getElementById("index").style.display = "none";
-    document.getElementById("div").style.display = "none";
+    $('#index').hide();
+    $('#div').hide();
     $('#closebtn').animate({ height: 'toggle' }, 20);
     $('#box').animate({ height: 'toggle' }, 600);
     $('#loading').delay(500).animate({ height: 'toggle' });
