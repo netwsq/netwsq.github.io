@@ -26,7 +26,7 @@
                 height: 'toggle'
             });
             $('#backpic').delay(1000).fadeIn('slow');
-            $('#index').delay(1500).fadeIn('slow');
+            window.location.href = "#/index";
         }
         function fetch(id) {
             document.getElementById("index").style.display = "none";
@@ -141,7 +141,7 @@
         </div>
         <div style="left: 50%;top :40%;position: absolute;transform: translate(-50%,-50%);text-align: center;">
             <a href="#/game"><button class="btn">Game</button></a>
-            <button class="btn" onclick="fetch('adobe')">Adobe</button>
+            <a href="#/adobe"><button class="btn">Adobe</button></a>
             <button class="btn" onclick="alert('功能未开发')">Tools</button>
         </div>
         <div style="left: 50%;bottom :5%;position: absolute;transform: translate(-50%,-50%);text-align: center;">
@@ -150,6 +150,8 @@
             </p>
         </div>
     </div>
+    <script src="/JavaScript/adobe/adobelist.js"></script>
+    <script src="/JavaScript/game/gamelist.js"></script>
     <script src="/JavaScript/router.js"></script>
     <script src="/JavaScript/text.js"></script>
 </body>
